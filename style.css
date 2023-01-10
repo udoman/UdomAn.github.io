@@ -46,7 +46,7 @@ section{
 }
 
 .intro{
-    font-size: 38px;
+    font-size: 40px;
     place-items: center;
     align-content: center;
 }
@@ -68,13 +68,29 @@ section{
     padding: 15px   
 }
 
+.logo-container{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.logo-button{
+    margin-right: auto;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: -8px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
 .nav-bar{
     display:flex;
     background-color:#1d1d212b;
     padding: 15px;
     position: fixed;
     opacity: 1;
-    display:flex;
     justify-content: flex-end;
     flex-wrap: nowrap;
     top: 0;
