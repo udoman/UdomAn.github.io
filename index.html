@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🆄🅰UdomAn</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+    <body>
+        <nav class="nav-bar">
+                <a onclick="scrollToSection('home')" class="me-button">🅄🄰</a>
+
+            <!--style="padding-left:900px; background-color: #1313161d; padding-top: 10px;"-->
+                <a onclick="scrollToSection('home')" class="nav-button">Home</a>
+                <a onclick="scrollToSection('about')" class="nav-button">About</a>
+                <a onclick="scrollToSection('projects')" class="nav-button">Projects</a>
+                <a onclick="scrollToSection('contacts')" class="nav-button">Contact</a>
+        </nav>
+
+        <section class="hidden intro" data-section-name="home">
+            <h1>Hi, I'm <strong class="name">Udom An</strong>.</h1>
+            <p style="margin-top: -10px;">Welcome to my portfolio.</p>
+            <button class="begin">
+                <a onclick="scrollToSection('about')" class="no-link">
+                    <span>Get Started</span>
+                </a>
+            </button>
+        </section>
+
+        <section class="hidden sector" data-section-name="about" style="min-height:180vh">
+            <h1>About me</h1>
+            <div style="width: 50%; margin-top: -20px;">
+                <p style="text-indent:4em; color: rgba(255, 255, 255, 0.64);">
+                    Growing up, I've always been fascinated with computers. It started with games 
+                    as a distraction which quickly cultivated into an obsession. 
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.64);"> 
+                    Coming into college, I knew that my area of focus would be something in regards of technology. 
+                    I've always had the urge to create and design things. I enjoy seeing the results which is why
+                    coding is very rewarding to me. I aspire to learn while working hard in the field of 
+                    design and development.
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.64);">
+                    Outside of development, I enjoy reading, working out, sleeping,
+                    and watching movies.
+                </p>
+            </div>
+            <img src="./img/soft-dev.png" alt="tech logo" height="auto" width="800px" style="margin-top:50px; box-shadow: 0 0.1em 0.4em rgb(0 0 0 / 80%);">
+        </section>
+
+        <section class="hidden sector" data-section-name="projects">
+            <h1>Projects</h1>
+            <div class="container">
+                <h2 style="color:#ffffffd1">Record Squared</h2>
+                <img src="./img/record.jpg" alt="Record^2" class="project-pic">
+                <div style="width: 50%; margin-top: -20px;">
+                    <p style="text-indent:4em; color: rgba(255, 255, 255, 0.64);">
+                        Music diary website that allow users to keep track of their music listening habits.
+                        It functions like a diary, where users can update albums they have listend to, rate them,
+                        and add comments.
+                    </p>
+                    <p>
+                        Technologies: 
+                        <img src="./img/javascript.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                        <img src="./img/html.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                        <img src="./img/angular.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                        <img src="./img/node.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                        <img src="./img/mongodb.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                    </p>
+                </div>
+
+                <h2 style="color:#ffffffd1; margin-top: 110px;">Cush (Customer Shell Prompt)</h2>
+                <img src="./img/terminal2.jpg" alt="cush" style="height:auto; width:400px; margin-bottom: 50px; ">
+                <div style="width: 50%; margin-top: -20px;">
+                    <p style="text-indent:4em; color: rgba(255, 255, 255, 0.64);">
+                        Customizable shell is a command-line interface created based upon
+                        Unix OS. It allows users to basic command shell as well as customized
+                        commands. This shell allow users to tailor the enviroment to their specific needs
+                        provdiding users with a highly flexible and adaptable command line interface.
+                    </p>
+                    <p>
+                        Technologies: 
+                        <img src="./img/C.jpg" style="height:auto; width:70px; margin-bottom: -15px;">
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hidden sector" data-section-name="contacts">
+            <h2 style="font-size:80px;">Want to contact me?</h2>
+            <div style="margin-top:40px; font-size:32px">
+                <a href="https://www.linkedin.com/in/udoman/" class="end-button">
+                    Linkedin
+                    <img src="./img/linkedin.jpg" alt="email" style="height:auto; width:60px; margin-left: 10px; margin-bottom: -4px;">
+                    
+                </a>
+                <a href="https://github.com/udoman" class="end-button">
+                    Github
+                    <img src="./img/github.jpg" alt="email" style="height:auto; width:60px; margin-left: 10px; margin-bottom: -4px;">
+                </a>
+                <a href="mailto:udoman@vt.edu" class="end-button">
+                    Email
+                    <img src="./img/email-logo.jpg" alt="email" style="height:auto; width:50px; margin-left: 10px; margin-bottom: -4px;">
+                </a>
+            </div>
+        </section>
+
+        <footer class="end">
+            <a style="width:50%;">© 2022 Udom An, all rights reserved</a>
+        </footer>
+    
+    </body>
+</html>
