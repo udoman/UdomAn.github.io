@@ -7,6 +7,47 @@ body{
     margin: 0;
 }
 
+.curve-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.curve-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 207px;
+}
+
+.curve-1 .shape-fill {
+    fill: #00000020;
+}
+
+.curve-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 172px;
+}
+
+.curve-2 .shape-fill {
+    fill: #000000D4;
+}
+
 /*This was before for section just for reference*/
 .middle{
     display: grid;
