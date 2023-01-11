@@ -7,7 +7,6 @@ body{
     margin: 0;
 }
 
-
 /*This was before for section just for reference*/
 .middle{
     display: grid;
@@ -66,13 +65,6 @@ section{
     color: #ffffff;
     border-radius: 10px;
     padding: 15px   
-}
-
-.logo-container{
-    display:flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-
 }
 
 .logo-button{
@@ -225,7 +217,32 @@ section{
     width: 800px;
     margin-top: 30px;
     margin-bottom: 50px;
-    
+}
+
+.desc-color{
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.about-logo{
+    height:auto; 
+    width:800px;
+    margin-top:50px; 
+    box-shadow: 0 0.1em 0.4em rgb(0 0 0 / 80%);
+
+}
+
+.tech-logo{
+    height:auto; 
+    width:70px; 
+    margin-bottom: -15px;
+}
+
+.contact-logo{
+    height:auto; 
+    width:60px; 
+    margin-left: 10px; 
+    margin-bottom: -4px;
+
 }
 
 
